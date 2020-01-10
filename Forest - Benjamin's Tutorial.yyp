@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "4fdc2d1c-7417-4a48-bcdd-973b9f7acd90",
+            "Value": {
+                "id": "88e3e410-3a8b-42aa-a7a0-e0ba59fe2afe",
+                "resourcePath": "scripts\\draw_self_flash\\draw_self_flash.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "52d135fc-c433-4f34-9774-7df28f83e208",
             "Value": {
                 "id": "bb3e98e0-bebf-4d13-a9c2-c436baff3181",
@@ -701,7 +709,8 @@
         "85ea7c2d-91d8-47d3-9ce6-d7f070be82de",
         "ebf15ea5-c04a-4d97-898c-67939e14494a",
         "5f392e65-4e33-42c9-b911-25f97d4ea2ed",
-        "61e8cc4f-325b-4ff1-91af-d56a5e14dba4"
+        "61e8cc4f-325b-4ff1-91af-d56a5e14dba4",
+        "4fdc2d1c-7417-4a48-bcdd-973b9f7acd90"
     ],
     "tutorial": ""
 }
