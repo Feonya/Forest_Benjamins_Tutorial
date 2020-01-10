@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "2c61236c-39c0-4e7a-8493-8271bb300a92",
+            "Value": {
+                "id": "eb3e645f-d19e-4bb4-8f93-fcf8c7cb33bf",
+                "resourcePath": "sounds\\snd_hit\\snd_hit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2e8f9b22-48b2-4458-8e82-e4d167b9771e",
             "Value": {
                 "id": "69a68138-5495-4049-8be1-858618715b0a",
@@ -196,6 +204,14 @@
                 "id": "9f49fdb4-32c6-4770-8f86-efa3d7b414b1",
                 "resourcePath": "views\\455de32e-de70-4297-988f-5da54ec3aa96.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4771f277-e9ad-462a-914a-ca18b221efb5",
+            "Value": {
+                "id": "80ec0138-eb72-4cf3-beee-ae83c780722c",
+                "resourcePath": "sounds\\snd_swipe\\snd_swipe.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -463,6 +479,14 @@
             }
         },
         {
+            "Key": "960ae1fd-de35-4ec7-a7cc-0ac685314005",
+            "Value": {
+                "id": "14c38882-9994-414a-9397-ef9fc6bbdd8a",
+                "resourcePath": "sounds\\snd_porcupine_attack\\snd_porcupine_attack.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9f22a033-2f5e-4396-9943-6d93f0f7447c",
             "Value": {
                 "id": "03b4a2da-0587-4896-84ad-4f9f9a575449",
@@ -607,6 +631,14 @@
             }
         },
         {
+            "Key": "d92e9614-70ff-438a-9a4e-615e40920736",
+            "Value": {
+                "id": "5a47e2f8-3dd4-44f4-bd30-7c8dca4d6598",
+                "resourcePath": "sounds\\snd_music\\snd_music.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "dd889505-1b36-491b-88f9-be6093f96ebe",
             "Value": {
                 "id": "28d2d791-395b-421f-9d75-f04128c63694",
@@ -644,6 +676,14 @@
                 "id": "ba834c21-10ba-452a-a4ae-d6748b477a19",
                 "resourcePath": "sprites\\spr_sword_hitbox\\spr_sword_hitbox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e83c58fb-f12d-48f1-9513-67fdc7c0ceb8",
+            "Value": {
+                "id": "5ab0ba3f-c76b-44ce-ad6e-ac771c7ff60f",
+                "resourcePath": "sounds\\snd_hurt\\snd_hurt.yy",
+                "resourceType": "GMSound"
             }
         },
         {

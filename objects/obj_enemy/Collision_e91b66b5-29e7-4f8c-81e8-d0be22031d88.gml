@@ -9,4 +9,6 @@ if (hurtbox_entity_canbe_hurt_by(other))
 
 	create_animation_effect(spr_hit_effect, x, y - 8, 0.4, true);
 	set_movement(point_direction(other.x, other.y, x, y), other.knockback_);
+	
+	audio_play_sound(snd_hit, 7, false);
 }

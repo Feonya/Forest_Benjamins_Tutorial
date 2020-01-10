@@ -25,6 +25,8 @@ if (animation_hit_frame(1))
 			_hitbox.y -= 8;
 			break;
 	}
+	
+	audio_play_sound(snd_swipe, 8, false);
 }
 
 if (animation_hit_frame(image_number - 1)) state_ = player.move;

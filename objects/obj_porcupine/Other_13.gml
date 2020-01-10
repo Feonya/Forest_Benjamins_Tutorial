@@ -3,7 +3,11 @@
 image_speed = 0.35;
 
 if (animation_hit_frame(1))
+{
 	create_hitbox(spr_porcupine_hitbox, x, y - 8, 0, 1, [obj_player], 1, 4);
+	
+	audio_play_sound(snd_porcupine_attack, 5, false);
+}
 
 if (animation_hit_frame(image_number - 1))
 {
