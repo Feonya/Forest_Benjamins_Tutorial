@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "5888f91b-6ecc-472c-a7e2-659c7f926488",
+            "Value": {
+                "id": "aea3ef00-41ec-41ec-b4cc-603afcf15b11",
+                "resourcePath": "objects\\obj_camera\\obj_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "58d673b5-5eeb-4837-bdd6-810f5b1eeea9",
             "Value": {
                 "id": "208cca79-acfe-4d56-9d1e-20cd9b86e279",
@@ -439,6 +447,14 @@
             }
         },
         {
+            "Key": "9188a21e-2398-4563-9d6b-c7c1eed661c2",
+            "Value": {
+                "id": "b7bdcab5-6b97-42b3-b444-d18aaaa408ed",
+                "resourcePath": "scripts\\round_n\\round_n.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
                 "id": "e894fc6f-c451-4441-af24-c92a17cba024",
@@ -515,6 +531,14 @@
             "Value": {
                 "id": "f9c6ecf1-3c95-4264-84c4-d2787b91969a",
                 "resourcePath": "views\\bc7b9812-fba5-41cf-9fbe-83b31e43bfe0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bd17829d-3c9d-40ab-ae19-133e5a397749",
+            "Value": {
+                "id": "d2f2d7e2-a0f0-4fca-82f5-a19f1823838a",
+                "resourcePath": "views\\bd17829d-3c9d-40ab-ae19-133e5a397749.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -706,8 +730,9 @@
         "1d032df7-f2c6-40a7-881e-dc3e66438344",
         "60deb055-40c3-4939-b29a-440c2b8a5cac",
         "5eff916a-e03f-490a-94f8-606f06794bc7",
-        "85ea7c2d-91d8-47d3-9ce6-d7f070be82de",
         "ebf15ea5-c04a-4d97-898c-67939e14494a",
+        "9188a21e-2398-4563-9d6b-c7c1eed661c2",
+        "85ea7c2d-91d8-47d3-9ce6-d7f070be82de",
         "5f392e65-4e33-42c9-b911-25f97d4ea2ed",
         "61e8cc4f-325b-4ff1-91af-d56a5e14dba4",
         "4fdc2d1c-7417-4a48-bcdd-973b9f7acd90"
