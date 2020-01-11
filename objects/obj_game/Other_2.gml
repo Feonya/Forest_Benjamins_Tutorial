@@ -1,1 +1,1 @@
-room_goto(rm_base);
+room_goto(rm_world);
