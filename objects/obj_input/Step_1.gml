@@ -1,1 +1,1 @@
-event_user(get_input_);
+event_user(GET_INPUT);

@@ -1,6 +1,5 @@
-if (global.player_start_position == noone)
+if (!instance_exists(obj_player))
 {
-	global.player_start_position = inst_game_start_position;
 	instance_create_layer(global.player_start_position.x , global.player_start_position.y, "Instances", obj_player);
 }
 else

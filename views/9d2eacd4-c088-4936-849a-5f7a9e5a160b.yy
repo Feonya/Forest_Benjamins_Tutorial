@@ -10,7 +10,7 @@
         "daf23238-a92c-486d-8494-d119ee64d38e"
     ],
     "filterType": "GMObject",
-    "folderName": "Collision Ojbects",
+    "folderName": "Collision Objects",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
