@@ -63,6 +63,30 @@
             }
         },
         {
+            "Key": "12b3ddce-e0d2-4423-9003-341ed5d6c07f",
+            "Value": {
+                "id": "75040e09-71a4-422e-87c5-8c288d5e8d8d",
+                "resourcePath": "sprites\\spr_heart_ui\\spr_heart_ui.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "13055cbe-bde6-482b-9169-083f0869512c",
+            "Value": {
+                "id": "f4aae2b2-250e-4015-949c-e3a7b9cdaffc",
+                "resourcePath": "sprites\\spr_hud\\spr_hud.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "17a6dc7d-627c-4742-a2b7-ad6d4b4fd608",
+            "Value": {
+                "id": "75642e76-5973-4c58-9665-0d4e099b2cfb",
+                "resourcePath": "views\\17a6dc7d-627c-4742-a2b7-ad6d4b4fd608.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "19e19165-f547-4004-9c52-a3466de1f19d",
             "Value": {
                 "id": "1fe97ab3-0813-4099-be58-5f319edc01ef",
@@ -123,6 +147,14 @@
             "Value": {
                 "id": "82665175-9820-4494-b537-d3e033ed78b7",
                 "resourcePath": "sprites\\spr_gem_shine_effect\\spr_gem_shine_effect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "25ef4e89-45b8-487a-bad3-ba615c9ffc2a",
+            "Value": {
+                "id": "330f03bc-cc6c-419d-8bf7-555517c6f7cd",
+                "resourcePath": "sprites\\spr_font\\spr_font.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -372,6 +404,14 @@
                 "id": "5f42bd4b-65a9-4b58-9b93-411b5fc9c0a9",
                 "resourcePath": "views\\5e34ea11-8734-4fe5-8474-e2a2a26872ad.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5e4517fb-c199-45d4-a1c9-06572edc2d4c",
+            "Value": {
+                "id": "148fa5b5-c8b6-4ca6-bb30-79fd5081fb82",
+                "resourcePath": "sprites\\spr_hud_edge\\spr_hud_edge.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
