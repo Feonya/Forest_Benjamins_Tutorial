@@ -18,3 +18,7 @@ audio_play_sound(snd_music, 10, true);
 view_width_  = camera_get_view_width(view_camera[0]);
 view_height_ = camera_get_view_height(view_camera[0]);
 display_set_gui_size(view_width_, view_height_);
+
+paused_ = false;
+paused_sprite_ = noone;
+paused_sprite_scale_ = display_get_gui_width() / view_wport[0];
