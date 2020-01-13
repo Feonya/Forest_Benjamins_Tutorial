@@ -5,7 +5,10 @@ up_	   = keyboard_check(vk_up);
 left_  = keyboard_check(vk_left);
 down_  = keyboard_check(vk_down);
 
-action_one_pressed_ = keyboard_check_pressed(ord("X"));
-action_two_pressed_ = keyboard_check_pressed(ord("Z"));
+right_pressed_ = keyboard_check_pressed(vk_right);
+left_pressed_  = keyboard_check_pressed(vk_left);
+
+action_one_pressed_ = keyboard_check_pressed(ord("Z"));
+action_two_pressed_ = keyboard_check_pressed(ord("X"));
 
 pause_pressed = keyboard_check_pressed(vk_enter);

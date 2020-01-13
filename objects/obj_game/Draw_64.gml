@@ -25,3 +25,5 @@ var _x = _gui_width  - _text_width;
 var _y = _gui_height - 16;
 draw_sprite(spr_gem, 0, _x - 8, _y + 13);
 draw_text(_x, _y + 6, _gem_string);
+
+inventory_draw(4, 36);
