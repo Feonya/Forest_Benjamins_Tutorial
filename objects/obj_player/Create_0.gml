@@ -1,12 +1,12 @@
 initialize_movement_entity(0.5, 1, obj_solid);
 initialize_hurtbox_entity();
 
-image_speed			 = 0;
-acceleration_		 = 0.5;
-max_speed_			 = 1.5;
-direction_facing_	 = dir.right;
-roll_direction_		 = 0;
-roll_speed_			 = 2;
+image_speed	      = 0;
+acceleration_     = 0.5;
+max_speed_        = 1.5;
+direction_facing_ = dir.right;
+roll_direction_	  = 0;
+roll_speed_	      = 2;
 
 enum player {
 	move,
@@ -46,6 +46,11 @@ sprite_[player.evade, dir.left]  = spr_player_roll_right;
 sprite_[player.evade, dir.down]  = spr_player_roll_down;
 
 sprite_[player.hit, dir.right] = spr_player_roll_right;
-sprite_[player.hit, dir.up]	 = spr_player_roll_up;
+sprite_[player.hit, dir.up]	   = spr_player_roll_up;
 sprite_[player.hit, dir.left]  = spr_player_roll_right;
 sprite_[player.hit, dir.down]  = spr_player_roll_down;
+
+sprite_[player.bomb, dir.right] = spr_player_run_right;
+sprite_[player.bomb, dir.up]	= spr_player_run_up;
+sprite_[player.bomb, dir.left]  = spr_player_run_right;
+sprite_[player.bomb, dir.down]  = spr_player_run_down;
