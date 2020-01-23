@@ -4,7 +4,7 @@ if (animation_hit_frame(1))
 {
 	var _hitbox = create_hitbox(
 		spr_sword_hitbox, x, y, direction_facing_ * 90, 3,
-		[obj_enemy, obj_grass],
+		[obj_enemy, obj_grass, obj_bush],
 		1, 8
 	);
 	

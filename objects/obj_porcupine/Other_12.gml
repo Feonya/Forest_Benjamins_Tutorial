@@ -2,7 +2,7 @@
 
 image_speed = 0.7;
 
-set_sprite_facing();
+set_sprite_facing(direction_);
 
 if (alarm[1] <= 0)
 {

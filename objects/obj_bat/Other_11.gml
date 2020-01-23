@@ -3,7 +3,7 @@
 add_movement_maxspeed(direction_, .01, 0.5);
 move_movement_entity(true);
 
-set_sprite_facing();
+set_sprite_facing(direction_);
 
 if (alarm[1] <= 0)
 {

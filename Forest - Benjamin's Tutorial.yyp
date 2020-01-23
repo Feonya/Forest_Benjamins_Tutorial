@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "73d74f33-bf03-4514-87f4-31f1ba82d3fd",
+            "Value": {
+                "id": "8a18292c-55fb-4563-a634-3216c9599329",
+                "resourcePath": "objects\\obj_bush\\obj_bush.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "75a7305d-dbf0-4fbc-a9f3-4ec7b106cf41",
             "Value": {
                 "id": "381a52f3-fd71-466b-9e65-dc2f6a8a174f",
@@ -684,6 +692,14 @@
                 "id": "5421ae7f-fba3-418a-9ded-6a2a3b3402bc",
                 "resourcePath": "rooms\\rm_init\\rm_init.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "7e6e9a0b-8fcc-410a-a2ea-12ffeac39b32",
+            "Value": {
+                "id": "d91e7f45-01e3-46c7-98d3-1cb3026ee931",
+                "resourcePath": "scripts\\add_to_destroyed_list\\add_to_destroyed_list.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1127,6 +1143,14 @@
             }
         },
         {
+            "Key": "e2121c64-e792-4f70-9229-2b5013e54ee2",
+            "Value": {
+                "id": "986c9692-4bdd-4629-952d-3243ed53f281",
+                "resourcePath": "scripts\\is_in_destroyed_list\\is_in_destroyed_list.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "bc94b37b-bc0b-401d-a3cc-1d7380cf4432",
@@ -1175,11 +1199,27 @@
             }
         },
         {
+            "Key": "e99c737c-0a77-4a87-9259-4635286ec945",
+            "Value": {
+                "id": "4c2ab2f4-f0b8-4571-bd79-b4a4ad8f1cd7",
+                "resourcePath": "sprites\\spr_bush_effect\\spr_bush_effect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ea6c31a3-c2bc-4a07-8065-5dd6449754eb",
             "Value": {
                 "id": "b6f3684e-59d5-456d-bba1-e7bb280ae27f",
                 "resourcePath": "scripts\\add_movement_maxspeed\\add_movement_maxspeed.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ebb1f88f-56f5-4651-89d8-34c745b4262d",
+            "Value": {
+                "id": "48d65c3c-48bd-4b92-82ff-46ba475ef50f",
+                "resourcePath": "sprites\\spr_bush\\spr_bush.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1303,7 +1343,9 @@
         "5f392e65-4e33-42c9-b911-25f97d4ea2ed",
         "61e8cc4f-325b-4ff1-91af-d56a5e14dba4",
         "4fdc2d1c-7417-4a48-bcdd-973b9f7acd90",
-        "144c19e7-c037-4f25-a70a-061de186a758"
+        "144c19e7-c037-4f25-a70a-061de186a758",
+        "7e6e9a0b-8fcc-410a-a2ea-12ffeac39b32",
+        "e2121c64-e792-4f70-9229-2b5013e54ee2"
     ],
     "tutorial": ""
 }
