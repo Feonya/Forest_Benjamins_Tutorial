@@ -6,9 +6,9 @@ var _font_string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ.abcdefghijklmnopqrstuvwxyz1234567
 global.font = font_add_sprite_ext(spr_font, _font_string, true, 1);
 draw_set_font(global.font);
 
-global.player_max_health     = 3;
+global.player_max_health     = 4;
 global.player_health	     = global.player_max_health;
-global.player_max_stamina    = 2;
+global.player_max_stamina    = 3;
 global.player_stamina	     = global.player_max_stamina;
 global.player_gems		     = 0;
 global.player_start_position = inst_game_start_position;
