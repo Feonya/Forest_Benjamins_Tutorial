@@ -1,3 +1,5 @@
+if (room == rm_title) exit;
+
 if (paused_)
 {
 	var array_size_ = array_length_1d(global.inventory);
