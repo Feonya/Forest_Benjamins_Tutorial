@@ -14,6 +14,10 @@ global.player_stamina	     = global.player_max_stamina;
 global.player_gems		     = 0;
 global.player_start_position = inst_game_start_position;
 
+global.load    = false;
+global.start_x = noone;
+global.start_y = noone;
+
 //audio_play_sound(snd_music, 10, true);
 
 view_width_  = camera_get_view_width(view_camera[0]);

@@ -1111,6 +1111,14 @@
             }
         },
         {
+            "Key": "d6c53992-769c-4aee-b647-4bbc5485f1bd",
+            "Value": {
+                "id": "684517ad-bcc6-4ecd-941e-62e50b1e652e",
+                "resourcePath": "scripts\\ini_load\\ini_load.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d839ff60-d49c-4f16-8e86-fe3d10a21026",
             "Value": {
                 "id": "63c574f7-07df-4385-9fa4-73b31e8967cd",
@@ -1172,6 +1180,14 @@
                 "id": "bc94b37b-bc0b-401d-a3cc-1d7380cf4432",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e472f49d-3b86-4c4e-96ed-531fc27cf391",
+            "Value": {
+                "id": "a8f888ef-50c9-4a7a-b1b7-fc5d1d63be6e",
+                "resourcePath": "scripts\\ini_save\\ini_save.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1369,7 +1385,9 @@
         "4fdc2d1c-7417-4a48-bcdd-973b9f7acd90",
         "144c19e7-c037-4f25-a70a-061de186a758",
         "7e6e9a0b-8fcc-410a-a2ea-12ffeac39b32",
-        "e2121c64-e792-4f70-9229-2b5013e54ee2"
+        "e2121c64-e792-4f70-9229-2b5013e54ee2",
+        "e472f49d-3b86-4c4e-96ed-531fc27cf391",
+        "d6c53992-769c-4aee-b647-4bbc5485f1bd"
     ],
     "tutorial": ""
 }
