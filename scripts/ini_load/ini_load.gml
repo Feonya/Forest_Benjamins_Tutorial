@@ -9,6 +9,11 @@ var _room_name = ini_read_string("Level", "Room", "");
 global.start_x = ini_read_real("Level", "Start x", 0);
 global.start_y = ini_read_real("Level", "Start y", 0);
 
+global.player_health      = ini_read_real("Player", "Health"     , 0);
+global.player_max_health  = ini_read_real("Player", "Max Health" , 0);
+global.player_stamina     = ini_read_real("Player", "Stamina"    , 0);
+global.player_max_stamina = ini_read_real("Player", "Max Stamina", 0);
+
 ini_close();
 
 if (_room_name == "") show_error("No save data.", false);

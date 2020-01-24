@@ -8,6 +8,8 @@ direction_facing_ = dir.right;
 roll_direction_	  = 0;
 roll_speed_	      = 2;
 
+alarm[1] = global.one_second;
+
 enum player {
 	move,
 	sword,
