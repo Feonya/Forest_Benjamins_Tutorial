@@ -14,6 +14,8 @@ global.player_max_health  = ini_read_real("Player", "Max Health" , 0);
 global.player_stamina     = ini_read_real("Player", "Stamina"    , 0);
 global.player_max_stamina = ini_read_real("Player", "Max Stamina", 0);
 
+global.inventory = ini_read_inventory("Player", "Inventory", []);
+
 ini_close();
 
 if (_room_name == "") show_error("No save data.", false);
