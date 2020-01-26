@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "10403fde-0439-4698-9e53-6452ec2bea85",
+            "Value": {
+                "id": "8ab8277f-f81a-4ea0-9695-5a98180f4c5c",
+                "resourcePath": "sprites\\spr_sword_stand\\spr_sword_stand.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "12b3ddce-e0d2-4423-9003-341ed5d6c07f",
             "Value": {
                 "id": "75040e09-71a4-422e-87c5-8c288d5e8d8d",
@@ -231,6 +239,14 @@
             }
         },
         {
+            "Key": "266f2105-0a11-432a-94ca-32d98d7eb57a",
+            "Value": {
+                "id": "23ecf095-8804-4420-a7fa-e731215433d8",
+                "resourcePath": "scripts\\set_player_found_item\\set_player_found_item.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2688f9d4-0b90-49d5-92d2-0bb1f754b300",
             "Value": {
                 "id": "b8903af3-2291-4e58-a96b-d7e0afc5d6e8",
@@ -244,6 +260,14 @@
                 "id": "08f65be6-2a2c-4ab2-9bce-21c4a04428fe",
                 "resourcePath": "views\\284dbce7-3361-4985-b344-19e35183b5f3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2860dc1e-8767-46f5-8250-dfb64d84866c",
+            "Value": {
+                "id": "6ed0ca2b-7092-480f-a956-b6f014db8025",
+                "resourcePath": "sprites\\spr_tree\\spr_tree.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -879,6 +903,14 @@
             }
         },
         {
+            "Key": "9c4f91cc-0152-4329-8f46-ffb4db12f0ca",
+            "Value": {
+                "id": "cad15385-2539-4ce1-9416-b630bd54996b",
+                "resourcePath": "objects\\obj_interactable\\obj_interactable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9d2eacd4-c088-4936-849a-5f7a9e5a160b",
             "Value": {
                 "id": "2800c533-52c1-4555-a352-0963662bffb5",
@@ -908,6 +940,14 @@
                 "id": "03b4a2da-0587-4896-84ad-4f9f9a575449",
                 "resourcePath": "objects\\obj_animation_effect\\obj_animation_effect.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9fa441bc-b42a-4378-90af-6314f615c318",
+            "Value": {
+                "id": "a5923111-c29e-4a77-bd73-4a316f40437b",
+                "resourcePath": "sprites\\spr_player_found_item\\spr_player_found_item.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1063,10 +1103,26 @@
             }
         },
         {
+            "Key": "bfa9dea1-4cc4-4e38-8888-b51595673b0f",
+            "Value": {
+                "id": "31615211-e950-4a5f-8ede-caafc2c08f69",
+                "resourcePath": "objects\\obj_sword_stand\\obj_sword_stand.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c19df9dd-35de-414a-a12e-dc3cb22500c9",
             "Value": {
                 "id": "e6704821-0ea6-4da2-b6c4-8277ac658a29",
                 "resourcePath": "sounds\\snd_menu_move\\snd_menu_move.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "c25f49d2-c0dd-44da-a3e7-1dba373d1b83",
+            "Value": {
+                "id": "00efbc29-5966-47b8-9e48-dba6b558260f",
+                "resourcePath": "sounds\\snd_key_item\\snd_key_item.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1287,6 +1343,14 @@
             }
         },
         {
+            "Key": "e9b48321-bf7b-4891-a2ac-542a91858cf4",
+            "Value": {
+                "id": "7f815c01-fade-4d41-b1e5-bc613a430ea1",
+                "resourcePath": "objects\\obj_tree\\obj_tree.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ea6c31a3-c2bc-4a07-8065-5dd6449754eb",
             "Value": {
                 "id": "b6f3684e-59d5-456d-bba1-e7bb280ae27f",
@@ -1432,7 +1496,8 @@
         "6d5e5149-a48f-45bd-81d7-3662a089d455",
         "77d7aa19-8620-461b-a8b2-6c3d32a44f9e",
         "028ef888-1a9f-47b6-8f98-8b59fc3d5fd1",
-        "243c44b3-8cc3-4918-a486-cefae7a25434"
+        "243c44b3-8cc3-4918-a486-cefae7a25434",
+        "266f2105-0a11-432a-94ca-32d98d7eb57a"
     ],
     "tutorial": ""
 }

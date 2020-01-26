@@ -8,6 +8,8 @@ direction_facing_ = dir.right;
 roll_direction_	  = 0;
 roll_speed_	      = 2;
 
+found_item_sprite_ = noone;
+
 alarm[1] = global.one_second;
 
 enum player {
@@ -51,6 +53,11 @@ sprite_[player.hit, dir.right] = spr_player_roll_right;
 sprite_[player.hit, dir.up]	   = spr_player_roll_up;
 sprite_[player.hit, dir.left]  = spr_player_roll_right;
 sprite_[player.hit, dir.down]  = spr_player_roll_down;
+
+sprite_[player.found_item, dir.right] = spr_player_found_item;
+sprite_[player.found_item, dir.up]	  = spr_player_found_item;
+sprite_[player.found_item, dir.left]  = spr_player_found_item;
+sprite_[player.found_item, dir.down]  = spr_player_found_item;
 
 sprite_[player.bomb, dir.right] = spr_player_run_right;
 sprite_[player.bomb, dir.up]	= spr_player_run_up;
