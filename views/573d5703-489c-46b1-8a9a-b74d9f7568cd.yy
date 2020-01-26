@@ -13,7 +13,10 @@
         "52d135fc-c433-4f34-9774-7df28f83e208",
         "2c4fcc70-4226-4f5d-82a2-24eed743c33b",
         "40db3637-e005-4891-8207-6f43fcde53d5",
-        "9fa441bc-b42a-4378-90af-6314f615c318"
+        "9fa441bc-b42a-4378-90af-6314f615c318",
+        "7838ddf5-2466-4e7d-942f-b900c70621b1",
+        "5df9b3e8-b1a1-44d1-ba07-3b48e11554ab",
+        "ecdb0a7f-f6e3-4bf7-a7df-316d897adeb2"
     ],
     "filterType": "GMSprite",
     "folderName": "Player Sprites",

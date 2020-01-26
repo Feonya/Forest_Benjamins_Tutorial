@@ -1,7 +1,9 @@
 /// @arg input
 /// @arg item
-var _input = argument0;
-var _item  = argument1;
+/// @arg action
+var _input  = argument0;
+var _item   = argument1;
+var _action = argument2;
 
 if (_input == true)
 {
@@ -16,6 +18,7 @@ if (_input == true)
 	{
 		image_index = 0;
 		image_speed = 0.8;
+		action_     = _action;
 		state_      = _item.action_;
 		
 		alarm[1]              = global.one_second;

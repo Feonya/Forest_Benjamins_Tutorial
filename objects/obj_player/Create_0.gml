@@ -29,8 +29,15 @@ enum dir {
 	down
 };
 
+enum action {
+	one,
+	two
+};
+
 starting_state_ = player.move;
 state_			= starting_state_;
+
+action_ = noone;
 
 // Sprite lookup table.
 
@@ -53,6 +60,11 @@ sprite_[player.hit, dir.right] = spr_player_roll_right;
 sprite_[player.hit, dir.up]	   = spr_player_roll_up;
 sprite_[player.hit, dir.left]  = spr_player_roll_right;
 sprite_[player.hit, dir.down]  = spr_player_roll_down;
+
+sprite_[player.bow, dir.right] = spr_player_bow_right;
+sprite_[player.bow, dir.up]	   = spr_player_bow_up;
+sprite_[player.bow, dir.left]  = spr_player_bow_right;
+sprite_[player.bow, dir.down]  = spr_player_bow_down;
 
 sprite_[player.found_item, dir.right] = spr_player_found_item;
 sprite_[player.found_item, dir.up]	  = spr_player_found_item;

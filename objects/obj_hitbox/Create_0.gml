@@ -1,3 +1,4 @@
-damage_	   = 1;
-knockback_ = 1;
-targets_   = []
+damage_	           = 1;
+knockback_         = 1;
+targets_           = []
+destroy_on_contact = false;

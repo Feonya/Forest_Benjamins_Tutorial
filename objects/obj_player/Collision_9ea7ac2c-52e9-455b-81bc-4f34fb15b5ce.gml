@@ -7,4 +7,6 @@ if (hurtbox_entity_canbe_hurt_by(other))
 	state_ = player.hit;
 	
 	audio_play_sound(snd_hurt, 6, false);
+	
+	if (other.destroy_on_contact) instance_destroy(other);
 }

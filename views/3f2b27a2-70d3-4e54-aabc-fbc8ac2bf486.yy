@@ -7,7 +7,8 @@
         "34956593-9f64-4fb1-90bf-d6131b1f0c72",
         "4710a3b9-29c0-452e-a1b5-244b2dbf12a1",
         "38e80f06-fa67-4082-880e-e979f29eeab2",
-        "28f7cf72-f5ff-4282-92f1-0ac85874d506"
+        "28f7cf72-f5ff-4282-92f1-0ac85874d506",
+        "033727da-a71d-49b4-9b48-d64cd086d0e4"
     ],
     "filterType": "GMObject",
     "folderName": "Inventory Objects",
