@@ -3,6 +3,8 @@ var _file_name = argument0;
 
 global.load = true;
 
+if (!file_exists(_file_name)) exit;
+
 ini_open(_file_name);
 
 var _room_name = ini_read_string("Level", "Room", "");
@@ -14,7 +16,10 @@ global.player_max_health  = ini_read_real("Player", "Max Health" , 0);
 global.player_stamina     = ini_read_real("Player", "Stamina"    , 0);
 global.player_max_stamina = ini_read_real("Player", "Max Stamina", 0);
 
-global.inventory = ini_read_inventory("Player", "Inventory", []);
+global.inventory = ini_read_inventory("Player", "Inventory"   , []);
+global.item      = ini_read_inventory("Player", "Active Items", []);
+
+global.destroyed = ini_read_string_array("World", "Destroyed Objects", []);
 
 ini_close();
 
