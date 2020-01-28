@@ -16,6 +16,12 @@ if (_input == true)
 	}
 	else if (instance_exists(_item) && global.player_stamina >= _item.cost_)
 	{
+		if (_item.show_amount_)
+		{
+			if (_item.amount_ > 0) _item.amount_ -= 1;
+			else                  exit;
+		}
+		
 		image_index = 0;
 		image_speed = 0.8;
 		action_     = _action;

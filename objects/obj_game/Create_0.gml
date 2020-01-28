@@ -35,3 +35,4 @@ item_index_ = 0;
 inventory_create(6);
 inventory_add_item(obj_ring_item);
 inventory_add_item(obj_bow_item);
+inventory_add_item(obj_bomb_item);
